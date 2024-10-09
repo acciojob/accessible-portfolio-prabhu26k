@@ -1,2 +1,36 @@
-
-/* Your CSS Code here. */
+body{
+	padding:0;
+	margin:0;
+}
+img{
+	width:300px;
+	margin-top:25px;
+	box-shadow:0 0 20px;
+}
+.container{
+	display:flex;
+	width:100%;
+	max-height:100vh;
+	justify-content:space-between;
+	border:2px solid black;
+	height:75px;
+	background:grey;
+	border-radius:5px;
+}
+.container nav{
+	display:flex;
+	justify-content:space-between;
+	padding:20px;
+}
+.container nav p:hover{
+	text-decoration:underline;
+	transition:.5s ease;
+}
+.container nav p{
+	margin:20px;
+	cursor:pointer;
+	transition:.3s ease;
+}
+#para{
+	text-shadow:0 0 5px;
+}
